@@ -1,7 +1,4 @@
-// Teste se a página contém as informações sobre a Pokédex;
-
 import { screen } from '@testing-library/react';
-// import userEvent from '@testing-library/user-event';
 import renderWithRouter from '../renderWithRouter';
 import About from '../pages/About';
 
