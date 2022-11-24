@@ -41,12 +41,12 @@ test('Verify integrity of "All" loop', () => {
   expect(pikachuGIF).toBeInTheDocument();
 
   userEvent.click(allButton);
-  for (let i = 0; i < 5; i += 1) { userEvent.click(nextButton); }
+  for (let i = 0; i < 5; i += 1) userEvent.click(nextButton);
 
   const mewGIF = screen.getByRole('img', { name: 'Mew sprite' });
   expect(mewGIF).toBeInTheDocument();
 
-  for (let i = 0; i < 4; i += 1) { userEvent.click(nextButton); }
+  for (let i = 0; i < 4; i += 1) userEvent.click(nextButton);
 
   const newPikachuGIF = screen.getByRole('img', { name: 'Pikachu sprite' });
   expect(newPikachuGIF).toBeInTheDocument();
