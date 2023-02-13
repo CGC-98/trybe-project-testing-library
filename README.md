@@ -1,5 +1,6 @@
 Projeto concluso, baseado em Testing Library pela Trybe;
-Arquivos excedentes a serem descartados;
+
+Teve como intuito a aplicação de testes em Jest para validação de código pré-determinado. Trabalho com fluxo de exceções e manipulação de objetos, e com foco em cobertura de código.
 
 <!-- Olá, Tryber!
 Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
